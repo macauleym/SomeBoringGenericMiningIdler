@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeBoringGenericMiningIdler.UI", "SomeBoringGenericMiningIdler.UI\SomeBoringGenericMiningIdler.UI.csproj", "{EAB78CA1-FDE4-4FC6-BBF1-4C35AA089AA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeBoringGenericMiningIdler.Core", "SomeBoringGenericMiningIdler.Core\SomeBoringGenericMiningIdler.Core.csproj", "{A04E204B-33EF-4D61-ADA8-D56F18E5A995}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAB78CA1-FDE4-4FC6-BBF1-4C35AA089AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAB78CA1-FDE4-4FC6-BBF1-4C35AA089AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAB78CA1-FDE4-4FC6-BBF1-4C35AA089AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAB78CA1-FDE4-4FC6-BBF1-4C35AA089AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A04E204B-33EF-4D61-ADA8-D56F18E5A995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A04E204B-33EF-4D61-ADA8-D56F18E5A995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A04E204B-33EF-4D61-ADA8-D56F18E5A995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A04E204B-33EF-4D61-ADA8-D56F18E5A995}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
