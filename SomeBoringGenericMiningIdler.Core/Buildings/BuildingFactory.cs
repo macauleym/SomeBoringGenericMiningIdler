@@ -12,21 +12,21 @@ public class BuildingFactory : IConstructBuilding
         { 
             case BuildingName.SentientShovel: builder
                 .AsName(BuildingName.SentientShovel)
-                .WithPower(2)
-                .WithCost(5)
-                .WithCostFactor(0.75d);
+                .WithPower(1)
+                .WithCost(10)
+                .WithCostFactor(0.9d);
                 break;
             case BuildingName.MiningCamp: builder
                 .AsName(BuildingName.MiningCamp)
-                .WithPower(12)
-                .WithCost(70)
-                .WithCostFactor(0.8d);
+                .WithPower(6)
+                .WithCost(210)
+                .WithCostFactor(1.01d);
                 break;
             case BuildingName.Excavator: builder
                 .AsName(BuildingName.Excavator)
-                .WithPower(48)
-                .WithCost(210)
-                .WithCostFactor(0.95d);
+                .WithPower(24)
+                .WithCost(600)
+                .WithCostFactor(1.045d);
                 break;
             default:
                 throw new ArgumentOutOfRangeException(nameof(toCreate)
